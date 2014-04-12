@@ -1,0 +1,22 @@
+# 
+# .gitignore for Zend Framework 2 projects
+#
+
+.buildpath
+.project
+.nbproject
+.settings/
+.vagrant
+
+config/autoload/local.php
+config/autoload/*.local.php
+
+config/chef/cookbooks/*
+config/chef/tmp
+
+/vendor
+nbproject/
+
+build/logs/
+build/api/
+build/coverage/
